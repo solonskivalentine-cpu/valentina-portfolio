@@ -319,7 +319,7 @@ a { color: inherit; text-decoration: none; }
 /* Avoska hero — the tote photo bleeds to the viewport edge, text stays in the normal gutter */
 .avoska-hero {
   display: grid;
-  grid-template-columns: minmax(0, 960px) 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 560px);
   align-items: start;
 }
 .avoska-hero__text {
