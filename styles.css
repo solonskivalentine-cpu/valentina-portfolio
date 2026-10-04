@@ -313,7 +313,7 @@ a { color: inherit; text-decoration: none; }
   .g-row--3, .g-row--4, .g-row--6 { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 520px) {
-  .g-row--2, .g-row--3, .g-row--4, .g-row--6 { grid-template-columns: 1fr; }
+  .g-row--2, .g-row--3, .g-row--4, .g-row--6 { grid-template-columns: 1fr; } #case-heritage .g-row--4, #case-exhibition .g-row--6 { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* Avoska hero — the tote photo bleeds to the viewport edge, text stays in the normal gutter */
